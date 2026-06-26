@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Michelle On The Glow">
+  <defs>
+    <linearGradient id="mog-bg" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E45C7B"/>
+      <stop offset=".55" stop-color="#BC436A"/>
+      <stop offset="1" stop-color="#C79A63"/>
+    </linearGradient>
+    <radialGradient id="mog-glow" cx="30" cy="22" r="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE9D6" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#FFE9D6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- tile -->
+  <rect width="64" height="64" rx="15" fill="url(#mog-bg)"/>
+  <rect width="64" height="64" rx="15" fill="url(#mog-glow)"/>
+
+  <!-- monogram M -->
+  <path d="M15 47 L15 18 L32 38 L49 18 L49 47"
+        fill="none" stroke="#FFF6EF" stroke-width="7"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- sparkle -->
+  <path d="M50 9 L51.7 13.3 L56 15 L51.7 16.7 L50 21 L48.3 16.7 L44 15 L48.3 13.3 Z"
+        fill="#FFF6EF"/>
+</svg>

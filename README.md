@@ -9,8 +9,12 @@ and a neon-script nod to her event banner.
 
 ## What's here
 
-- **`index.html`** — the entire site. No build step, no dependencies. Fonts load
+- **`index.html`** — the whole page. No build step, no dependencies. Fonts load
   from Google Fonts; the form is embedded directly from Google Forms.
+- **`favicon.svg` / `favicon.ico` / `favicon-32.png` / `favicon-16.png`** — the
+  glow "M" monogram favicon (scalable SVG with `.ico`/PNG fallbacks).
+- **`apple-touch-icon.png`** — 180×180 icon used when someone adds the site to
+  their phone's home screen.
 
 ## Run it locally
 
